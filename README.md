@@ -1,4 +1,4 @@
-# View the website at [gpointinteractive.com] (gpointinteractive.com)
+# View the website at [gpointinteractive.com/brilo](https://gpointinteractive.com/brilo).
 
 I used the BEM naming system
 
