@@ -1,38 +1,322 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+:root {
+  --900: #00065b;
+  --500b: #264afb;
+  --400: #06eb83;
+  --500: #01d684;
+  --600: #009e61;
+  --100: #e7f0ff;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+body {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 110rem;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 32px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+.button--primary {
+  width: 214px;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px, 40px, 16px, 40px;
+  color: var(--900);
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--400);
+  font-size: 14px;
+}
+.button--secondary,
+.button--services {
+  box-shadow: 0px 3px 15px 0px #00065b1a;
+  width: 205px;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px, 40px, 16px, 40px;
+  color: var(--500);
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #fff;
+  font-size: 14px;
+  transition: all 0.15s;
+}
+.button--primary:hover {
+  border-bottom: 2px solid var(--600);
+}
+.button--secondary:hover {
+  box-shadow: 0px 5px 15px 0px #00065b4d;
+  background-color: var(--100);
+  color: var(--500);
+}
+.button--secondary:focus {
+  box-shadow: 0px 5px 15px 0px #00065b4d;
+  color: #fff;
+  background-color: var(--500b);
+}
+.button--services:hover {
+  box-shadow: 0px 5px 15px 0px #00065b4d;
+  background-color: var(--100);
+  color: var(--500);
+}
+.button--clicked {
+  width: 205px;
+  height: 56px;
+  border-radius: 8px;
+  padding: 16px, 40px, 16px, 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  box-shadow: 0px 5px 15px 0px #00065b4d;
+  color: #fff;
+  background-color: var(--500b);
+}
+nav,
+footer {
+  position: relative;
+  z-index: 5;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--900);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 220px 26px 220px;
+}
+.nav__menu {
+  display: none;
+}
+.nav__menu-ul {
+  position: absolute;
+  display: none;
+  transition: all 0.3s;
+  left: 100rem;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 2rem 0rem 2rem 0rem;
+}
+.nav__menu-ul--opened {
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  padding: 2rem 0rem 2rem 0rem;
+  transition: all 0.3s;
+}
+.nav__menu-ul--opened li,
+.nav__menu-ul li {
+  padding-top: 1.5rem;
+}
+footer {
+  text-transform: none;
+  border-top: 0.5rem solid var(--100);
+}
+.nav__links-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__hamburgerToggle {
+  display: none;
+}
+.footer__links-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__links-wrapper ul {
+  color: var(--500);
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  gap: 50px;
+}
+footer p {
+  font-weight: 500;
+}
+.nav__links-wrapper ul {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  gap: 50px;
+}
+.landing {
+  padding: 0px 220px 80px 220px;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 220px 80px 220px;
+}
+.section--first {
+  background-color: var(--100);
+}
+.landing__title {
+  color: var(--900);
+}
+.landing__description {
+  color: var(--900);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.landing__text-wrapper {
+  width: 50%;
+  padding-right: 70px;
+}
+.landing__button-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+}
+.services {
+  display: block;
+}
+.services__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem 2rem;
+}
+.service {
+  width: 328px;
+  height: 574px;
+  color: var(--900);
+  gap: 1rem;
+  position: relative;
+}
+.service__info,
+.services__info {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.service__info img {
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.services__info__wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.services__info__wrapper p {
+  width: 75%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.service button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateX(25%);
+}
+.services__info__button-wrapper {
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.nav__menu-toggle {
+  display: none;
+}
+@media only screen and (max-width: 1291px) {
+  .sectionImg {
+    width: 500px;
+    height: a;
   }
-  to {
-    transform: rotate(360deg);
+  p {
+    font-size: 13px !important;
+  }
+  h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  nav {
+    padding: 26px 280px 26px 280px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+  }
+  section {
+    flex-direction: column;
+  }
+  .sections {
+    position: relative;
+    top: 7rem;
+  }
+  .nav__menu-ul,
+  .nav__menu {
+    display: block;
+  }
+  .landing__text-wrapper {
+    padding-right: 0;
+    padding: unset !important;
+    padding-bottom: 2rem !important;
+  }
+  .nav__menu-toggle {
+    display: block;
+    width: 2rem;
+    height: auto;
+    cursor: pointer;
+  }
+  .nav__links-wrapper {
+    display: none;
+  }
+  .services {
+    display: flex;
+  }
+  .service {
+    width: 235px;
+    height: 476px;
+  }
+  .services__items {
+    width: 75%;
+  }
+  .services__info {
+    width: 55%;
+  }
+  .service button {
+    transform: translateX(5%);
+  }
+  nav,
+  footer {
+    align-self: center;
+    width: 32rem;
+  }
+  footer {
+    margin-top: 6rem;
+    flex-direction: column;
+    gap: 1rem;
   }
 }

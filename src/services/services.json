@@ -1,0 +1,51 @@
+{
+  "0": {
+    "id": 0,
+    "name": "Látkové tašky s potiskem",
+    "info": "Dlouhá význam s sionismu ty, jí antény i sezona, bílá malých izolovány uvést masové vodě",
+    "category": "Látkové tašky",
+    "img": "0"
+  },
+  "1": {
+    "id": 1,
+    "name": "Látkové tašky bez potisku",
+    "info": "Dlouhá význam s sionismu ty, jí antény i sezona",
+    "category": "Látkové tašky",
+    "img": "1"
+  },
+  "2": {
+    "id": 2,
+    "name": "Bílé papírové tašky",
+    "info": "Dlouhá význam s sionismu ty, jí antény i sezona, bílá malých izolovány uvést masové vodě",
+    "category": "Papírové tašky",
+    "img": "2"
+  },
+  "3": {
+    "id": 3,
+    "name": "Barevné papírové tašky na dárky",
+    "info": "Dlouhá význam s sionismu ty, jí antény i sezona, bílá malých izolovány uvést masové vodě",
+    "category": "Papírové tašky",
+    "img": "3"
+  },
+  "4": {
+    "id": 4,
+    "name": "Papírové tašky z recyklovatelného materiálu",
+    "info": "Dlouhá význam s sionismu ty, jí antény i sezona",
+    "category": "Papírové tašky",
+    "img": "2"
+  },
+  "5": {
+    "id": 5,
+    "name": "Igelitové sáčky s logem",
+    "info": "Dlouhá význam s sionismu ty, jí antény i sezona, bílá malých izolovány uvést masové vodě",
+    "category": "Igelitové tašky",
+    "img": "0"
+  },
+  "6": {
+    "id": 6,
+    "name": "Velké igelitové tašky s potiskem",
+    "info": "Dlouhá význam s sionismu ty, jí antény i sezona, bílá malých izolovány uvést masové vodě",
+    "category": "Igelitové tašky",
+    "img": "1"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/brilo/static/css/main.03326d04.css",
+    "main.js": "/brilo/static/js/main.262e2cce.js",
+    "static/js/787.6d369e90.chunk.js": "/brilo/static/js/787.6d369e90.chunk.js",
+    "static/media/SectionFirst.png": "/brilo/static/media/SectionFirst.b611eefc624f327a47e5.png",
+    "static/media/Landing.png": "/brilo/static/media/Landing.9137d7a88165b6151aed.png",
+    "static/media/SectionSecond.png": "/brilo/static/media/SectionSecond.0924beffd717eab1a12e.png",
+    "static/media/1.png": "/brilo/static/media/1.7363adfb96bae7f01889.png",
+    "static/media/2.png": "/brilo/static/media/2.ab8b9d9f920cd8c6cfc5.png",
+    "static/media/0.png": "/brilo/static/media/0.ec74e305babd2a10d5b5.png",
+    "static/media/3.png": "/brilo/static/media/3.315dc7e3571f1660c515.png",
+    "static/media/LogoHorizontal.svg": "/brilo/static/media/LogoHorizontal.cf1f52a8af3ff452885bb0385bcbccce.svg",
+    "index.html": "/brilo/index.html",
+    "main.03326d04.css.map": "/brilo/static/css/main.03326d04.css.map",
+    "main.262e2cce.js.map": "/brilo/static/js/main.262e2cce.js.map",
+    "787.6d369e90.chunk.js.map": "/brilo/static/js/787.6d369e90.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03326d04.css",
+    "static/js/main.262e2cce.js"
+  ]
+}

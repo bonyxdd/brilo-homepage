@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# View the website at [gpointinteractive.com] (gpointinteractive.com)
+
+I used the BEM naming system
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
